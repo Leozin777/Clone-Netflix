@@ -5,41 +5,128 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
-    <title>CloneFlix</title>
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+    
+
+    <title>LEGOFLIX</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">Netflix</h2>
+            <h2 class="logo">LEGOFLIX   </h2>
             <nav>
                 <a href="#">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+                <a href="jogos.html">Jogos</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <div class="filme-principal">
+        <div class="jogo-principal">
             <div class="container">
-                <h3 class="titulo">BATMAN</h3>
-                <p class="descricao">Dois anos patrulhando as ruas como Batman e provocando medo nos corações dos criminosos lançaram Bruce Wayne nas
-                    sombras de Gotham City.</p>
+                <h3 class="titulo">LEGO Batman 3: Beyond Gotham</h3>
+                <p class="descricao">Batman une forças com os super-heróis do universo DC Comics e parte para o espaço sideral para impedir que o maligno Brainiac destrua a Terra.</p>
                 <div class="botoes">
-                    <button role="button" class="botao">
+                    <button onclick="window.location.href='https://www.youtube.com/watch?v=-0ANnsEfofs&t=8s'" class="botao">
                         <i class="fa-solid fa-play"></i>
-                        ASSISTIR AGORA
+                        ASSISTIR O TRAILER
                     </button>
-                    <button role="button" class="botao">
+
+                    <button onclick="window.location.href = 'legoBatman3.html'" class="botao">
                         <i class="fa-solid fa-circle-info"></i>
                         MAIS INFORMAÇÕES
                     </button>
                 </div>
             </div>
         </div>
-    </main>
 
+        <div class="carrosel-jogos">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-1.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-2.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-4.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-5.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-6.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-7.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-8.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-9.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-10.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-11.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-12.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-13.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-14.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-15.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-16.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-17.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-18.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-19.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-20.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-21.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-22.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-23.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-24.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="img/capa-25.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>    
+                
+    </main>
     <script src="https://kit.fontawesome.com/0f038d64cb.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 </body>
 </html>

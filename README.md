@@ -1,20 +1,23 @@
-# LEGOFLIX
+# LEGOFLIX :sunglasses:
 Clone da pagina da Netflix que fiz no curso da DIO, porém dei a minha cara ao projeto e incrementei mais algumas coisas, agora se chama LEGOFLIX e possui todos os jogos da franquia LEGO no catálogo!!!
 
-## LAYOUT WEB
+## QUER VER FUNCIONANDO ? :thinking:
+https://leozin777.github.io/LEGOFLIX/
 
-### Primeira página
+## LAYOUT WEB 	:computer:
+
+### Primeira página:
 <img src="https://github.com/Leozin777/assets/blob/main/legoflix/gif%20layout%20web/ezgif.com-gif-maker.gif" width = 600px>
 
 ### Segunda página:
 <img src="https://github.com/Leozin777/assets/blob/main/legoflix/gif%20layout%20web/pag2.gif" width = 600px>
 
-## Técnologias utilizadas
+## Técnologias utilizadas 	:technologist:
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## Contato:
+## Contato 	:telephone_receiver:
 
 <a href="https://www.linkedin.com/in/leonardo-cardoso-da-silveira-901a111b4/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
